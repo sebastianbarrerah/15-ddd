@@ -6,11 +6,11 @@ public abstract class Identity {
 
     private final String value;
 
-    Identity(){
+    protected Identity(){
         this.value = UUID.randomUUID().toString();
     }
 
-    Identity(final String value){
+    protected Identity(final String value){
         this.value = value;
     }
 
